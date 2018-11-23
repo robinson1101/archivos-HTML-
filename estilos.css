@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{
+   margin:0px;
+   padding: 0px;
+}
+h1
+{
+    font: bold 30px Verdana, Geneva, sans-serif;
+    color: white;    
+}
+h2
+{
+    font: bold 14px Verdana, Geneva, sans-serif;
+    
+}
+body
+{
+    text-align: center;
+}
+#cuerpo
+{
+    width: 1430px;
+    margin: 0px auto;
+    text-align: left;
+    background-color: darkcyan;
+    /*background-image: url(src/counter.png);*/
+}
+#encabezado
+{
+    background-color: black;
+   /* background-image: url(src/BF-horizontal.png);*/
+    border: 40px solid #0000;
+    width: 1350px;
+    /* padding: 20px */
+}
+#menu
+{
+    background: #ffff;
+    height: 50px;
+    width: 1430px;
+}
+#Contenedor
+{
+    float: left;
+    width: 1430px;
+    height: 400px;
+    background-color: dimgray;
+    
+}
+
+#Seccion
+{
+    float: left;
+    width: 700px;
+    height: inherit;
+    /*margin: 20px;*/
+    background-color: greenyellow;
+    font-size: 30PX;
+    
+    
+}
+#lateral
+{
+    float: left;
+    width: 50px;
+    height: inherit;
+    background: #cccccc;
+}
+
+#pie de pagina
+{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border= top:px solid #999999;
+    background-color: aquamarine;
+       
+}
+ul
+{
+    /*este codigo para quitar los puntos o numeros de los menus*/
+    list-style-type: none;
+}
+li
+{
+    float: left;
+    width: auto;
+}
+li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: underline;
+}
+#barra2
+{
+    background-color: black;
+    width: 0px;
+}
+img
+{
+    /*De esta manera centraremos la imagen de nuestro código HTML:*/
+   display: block;
+   margin: auto;
+    
+}
